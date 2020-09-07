@@ -100,7 +100,7 @@ usr/bin/fdfs_storaged /etc/fdfs/storage.conf
 ## 8.配置测试
 
 **注意：** 开放22122、23000端口 我这里是云服务器在安全组里配置
-![image-20200907160236726](C:\Users\vlink\AppData\Roaming\Typora\typora-user-images\image-20200907160236726.png)
+![image-20200907160236726](..\其它\文件\Snipaste_2020-09-07_16-27-19.png)
 
 **从编译完的FastDFS目录复制libfastclient.so 到/usr/lib目录**
 
