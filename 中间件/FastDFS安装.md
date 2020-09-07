@@ -26,7 +26,7 @@ cd libfastcommon-1.0.7
 ./make.sh install
 ```
 
-**注意：** 由于FastDFS程序引用usr/lib目录所以需要将/usr/lib64下的库文件拷贝至/usr/lib下
+###### 注意：由于FastDFS程序引用usr/lib目录所以需要将/usr/lib64下的库文件拷贝至/usr/lib下
 
 ```powershell
 cp /usr/lib64/libfastcommon.so /usr/lib
@@ -99,8 +99,7 @@ usr/bin/fdfs_storaged /etc/fdfs/storage.conf
 
 ## 8.配置测试
 
-**注意：** 开放22122、23000端口 我这里是云服务器在安全组里配置
-![image-20200907160236726](..\其它\文件\Snipaste_2020-09-07_16-27-19.png)
+###### 注意：开放22122、23000端口 我这里是云服务器在安全组里配置
 
 **从编译完的FastDFS目录复制libfastclient.so 到/usr/lib目录**
 
@@ -201,6 +200,8 @@ vim nginx.conf
 ```
 
 **配置内容:**
+
+###### 注意：开放9999端口
 
 ```powershell
 server{
